@@ -1,0 +1,22 @@
+# Large PDF Reader Dependencies
+# Memory-efficient PDF processing with streaming capabilities
+
+# Core PDF processing
+PyMuPDF>=1.23.0        # Fast, memory-efficient PDF processing
+pypdf>=3.17.0          # Streaming capabilities for large files
+pdfminer.six>=20221105 # Detailed text extraction with layout
+
+# Image and data handling
+Pillow>=10.0.0         # Image extraction and processing
+pandas>=2.0.0          # Table data structures
+
+# Progress and monitoring
+tqdm>=4.66.0           # Progress bars for long operations
+psutil>=5.9.0          # Memory usage monitoring
+
+# Fallback AI processing (optional)
+openai>=1.0.0          # OpenAI Codex API (use sparingly)
+
+# Testing
+pytest>=7.4.0          # Test framework
+pytest-cov>=4.1.0      # Coverage reporting
